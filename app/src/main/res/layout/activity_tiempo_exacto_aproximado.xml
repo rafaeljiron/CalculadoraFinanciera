@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TiempoExactoAproximado"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_1" />
+
+    <EditText
+        android:id="@+id/txtYearFecha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:inputType="number|numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/txtMesFecha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mes"
+        android:inputType="number|numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/txtDiaFecha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dia"
+        android:inputType="number"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha 2" />
+
+    <EditText
+        android:id="@+id/txtYearFecha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtMesFecha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mes"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtDiaFecha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dia"
+        android:inputType="number" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/incluir_dias_bisiestos" />
+
+
+    <Button
+        android:id="@+id/btnCalcularTiempos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular" />
+
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textStyle="bold" />
+
+</LinearLayout>

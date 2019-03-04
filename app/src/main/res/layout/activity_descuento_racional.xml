@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescuentoRacional"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descuento Racional"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtDescuentoRacional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descuento Racional"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTasaDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tasa"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTiempoDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiempo"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtMontoDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+
+    <EditText
+        android:id="@+id/txtValorLiquidoDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Liquido"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnCalcularDescuentoRacional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR" />
+
+</LinearLayout>

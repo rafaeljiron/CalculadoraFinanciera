@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InteresCompuesto"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtCapitalCompuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital o Valor Actual"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtMontoCompuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto Compuesto o Valor futuro"
+        android:inputType="number"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+
+
+    <EditText
+        android:id="@+id/txtInteresCompuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interes Compuesto"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTasaNominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tasa anual o Tasa Nominal"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtFrecuenciaCapitazacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frencuencia Capitalizacion"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+
+
+    <EditText
+        android:id="@+id/txtInteresPorPeriodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tasa de interes por periodo"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTiempoCompuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiempo"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+
+    <EditText
+        android:id="@+id/txtPeriodos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero de periodos"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnCalcularInteresCompuestos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interesSimple"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interes Simple"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tasa"
+        android:inputType="number"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiempo"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtInteres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interes"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnCalcularInteresSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR" />
+
+</LinearLayout>

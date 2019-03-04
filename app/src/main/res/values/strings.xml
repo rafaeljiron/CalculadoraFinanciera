@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora Financiera</string>
+    <string name="fecha_1">Fecha 1</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="resultado">Resultado</string>
+    <string name="incluir_dias_bisiestos">Incluir Dias Bisiestos</string>
+</resources>

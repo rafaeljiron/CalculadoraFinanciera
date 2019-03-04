@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescuentoSimple"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descuento Bancario"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtDescuentoBancario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descuento Bancario"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTasaDescuentoBancario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tasa de descuento"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtTiempoDescuentoBancario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiempo Descuento"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/txtMontoPrestamoDescuentoBancario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Suma solicitada en prestamo"
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+
+    <EditText
+        android:id="@+id/txtValorLiquidoDescuentoBancario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Efectivo "
+        android:inputType="number|numberDecimal"
+        android:textColorLink="@android:color/holo_blue_bright"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnCalcularDescuentoSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR" />
+
+</LinearLayout>

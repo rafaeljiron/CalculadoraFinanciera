@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnInteresSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interes Simple"/>
+
+    <Button
+        android:id="@+id/btnTiempos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiempo Exacto o Aproximado"/>
+
+    <Button
+        android:id="@+id/btnDescuentoSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descuento Simple"/>
+
+    <Button
+        android:id="@+id/btnDescuentoRacional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descuento Racional"/>
+
+    <Button
+        android:id="@+id/btnInteresCompuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interes Compuesto"/>
+
+</LinearLayout>
